@@ -173,4 +173,20 @@ main{
 }
 .btn{
     margin-top: 50px;
+    margin-bottom: 50px
+}
+/* footer style */
+.footer-colamn{
+    display: flex;
+    gap: 100px;
+    padding: 100px 200px;
+}
+footer input[type="text"] ,footer input[type="email"] ,footer textarea{
+    height: 64px;
+    width: 100%;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    font-size: large;
 }
